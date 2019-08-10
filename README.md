@@ -14,7 +14,7 @@
   get '/other/routes', to: "meet_ups#other_routes"
   ```
 
-* Be sure to update credentials.yml with your appropriate keys. You can create/edit this file with the following comand or follow instructions in credentialsYMLExample: 
+* Be sure to update credentials.yml with your appropriate keys. You can create/edit this file with the following command or follow instructions in credentialsYMLExample: 
 [references](https://www.viget.com/articles/storing-secret-credentials-in-rails-5-2-and-up)
 
     ` EDITOR="**EDITOR-OF-CHOICE-HERE** --wait" bin/rails credentials:edit `
@@ -36,7 +36,7 @@ create_table "users", force: :cascade do |t|
 
 ### MeetUp End points:
 
-Below is a table of the available Meetup API scopes names an their associated permissions.
+Below is a table of the available Meetup API scopes names and their associated permissions.
 [reference](meetup.com/meetup_api/auth/#oauth2-resources)
 
 ```

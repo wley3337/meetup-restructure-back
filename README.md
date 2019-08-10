@@ -1,5 +1,6 @@
 # The goal of this repo is to act as a template for those wanting to update to the new MeetUp oauth2 exchange
 
+[Link to front repo.](https://github.com/wley3337/meet-up-restructure-front)
 
 ### General Information: 
 * MeetUpsController has internal instructions on the main exchange with MeetUp oauth2 process
